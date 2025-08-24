@@ -68,7 +68,7 @@ python main-mammo.py \
   --inference imagenet
 ```
 
-- **ViT-base (trained with SSL pre-trained model)**
+- **ViT-base (SSL pre-trained)**
 ```bash
 python main-mammo.py \
   --model deit_base_patch16_224 \
