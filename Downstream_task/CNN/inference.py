@@ -73,7 +73,7 @@ def inference(model, device, threshold=0.5):
         transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]) # imagenet
     ])
 
-    csv_file = "/data/hdchoi00/micro-calcification/code/CNUH_data/test_inference.csv"
+    csv_file = "/hdchoi00/data/CNUH_data/test_inference.csv"
     dataset = InferenceDataset(csv_file, transform=transform)
     data_loader = DataLoader(dataset, batch_size=1, num_workers=0, pin_memory=True)
 
