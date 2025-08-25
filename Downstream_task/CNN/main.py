@@ -206,7 +206,7 @@ if __name__ == '__main__':
     parser.add_argument('--pretrained', action='store_true')
     args = parser.parse_args()
 
-    data_dir = '/data/hdchoi00/micro-calcification/code/CNUH_data'
+    data_dir = '/hdchoi00/data/CNUH_data'
     image_datasets = {x: datasets.ImageFolder(root=f'{data_dir}/{x}', transform=data_transforms[x])
                       for x in ['train', 'val', 'test']}
     
@@ -278,4 +278,5 @@ if __name__ == '__main__':
         if args.checkpoint:
             model_ft.load_state_dict(torch.load(args.checkpoint))
             print(f'Loaded model from {args.checkpoint}')
+
         inference(model_ft, device, threshold=threshold)
