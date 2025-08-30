@@ -6,6 +6,7 @@
 - We use `torchvision.datasets.ImageFolder`.
 - Expected directory layout (example):
 
+```
 CNUH_data/
 ├─ train/
 │  ├─ grade_3/
@@ -17,6 +18,7 @@ CNUH_data/
    │  └─ *.png
    └─ grade_4/
       └─ *.png
+```
 
 ## Test / Inference
 - To apply the proposed **BI-RADS grade classification** algorithm, a **custom dataset** is required.
