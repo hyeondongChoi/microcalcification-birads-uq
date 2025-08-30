@@ -1,7 +1,7 @@
 # MoCo v3 for Self-Supervised Learning
 
 ## Introduction
-This is a PyTorch implementation of MoCo v3 for self-supervised ViT for finetuning on mammography images.
+This is a PyTorch implementation of MoCo v3 for self-supervised learning (SSL) with Vision Transformers (ViT) on mammography images.
 
 We follow the official resources:
 - **MoCo v3 (official GitHub)**: [https://github.com/facebookresearch/moco-v3](https://github.com/facebookresearch/moco-v3)
@@ -10,7 +10,7 @@ We follow the official resources:
 and also Pre-trained models and configs files used in our experiments can be found here: [CONFIG.md](https://github.com/facebookresearch/moco-v3/blob/main/CONFIG.md) on **MoCo v3 Github**.
 
 ## Usage
-- **Self-Supervised Pre-Training**
+- **Self-Supervised Pre-Training (ViT-Base)**
 ```bash
 python /hdchoi00/SSL/moco/moco-v3/main_moco.py \
   -a vit_base \
