@@ -8,5 +8,5 @@ This repository is for Development of a Bayesian Deep Learning Model for Microca
 ## Self-Supervised Learning (SSL) & Downstream Tasks
 - We adopt **MoCo v3** with **Vision Transformers (ViT)** for self-supervised learning and downstream tasks.
 - Following the official MoCo v3 guidelines, we use **DeiT** as the framework for downstream fine-tuning.
-- **MoCo v3 (official Github)** : [https://github.com/facebookresearch/moco-v3]
-- **DeiT (official Github)** : [https://github.com/facebookresearch/deit]
+- **MoCo v3 (official Github)** : https://github.com/facebookresearch/moco-v3
+- **DeiT (official Github)** : https://github.com/facebookresearch/deit
