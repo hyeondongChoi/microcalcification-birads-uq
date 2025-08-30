@@ -22,4 +22,4 @@ CNUH_data/
 
 ## Test / Inference
 - To apply the proposed **BI-RADS grade classification** algorithm, a **custom dataset** is required.
-- An example of the expected file structure (manifest) is provided in **`inference.xlsx`**.
+- An example of the expected file structure (manifest) is provided in **`test_inference.csv`**.
