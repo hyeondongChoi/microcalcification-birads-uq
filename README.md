@@ -12,7 +12,7 @@ This repository is for Development of a Bayesian Deep Learning Model for Microca
 - **DeiT (official Github)** : https://github.com/facebookresearch/deit
 
 ## Usage (highlight)
-- Self-Supervised Pre-Training (ViT-Base)
+### Self-Supervised Pre-Training (ViT-Base)
 ```bash
 python /hdchoi00/SSL/moco/moco-v3/main_moco.py \
   -a vit_base \
@@ -26,7 +26,7 @@ python /hdchoi00/SSL/moco/moco-v3/main_moco.py \
   /hdchoi00/SSL/moco/data
 ```
 
-- Downstream fine-tuning (ViT-Base)
+### Downstream Fine-Tuning (ViT-Base)
 - Training
 ```bash
 python main-mammo.py \
