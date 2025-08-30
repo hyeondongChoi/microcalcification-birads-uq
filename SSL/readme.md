@@ -10,7 +10,10 @@ We follow the official resources:
 and also Pre-trained models and configs files used in our experiments can be found here: [CONFIG.md](https://github.com/facebookresearch/moco-v3/blob/main/CONFIG.md) on **MoCo v3 Github**.
 
 ## Usage
-- **Self-Supervised Pre-Training (ViT-Base)**
+
+According to the MoCo-v3 documentation, It is recommended to use **timm==0.4.9**.
+
+### Self-Supervised Pre-Training (ViT-Base)
 ```bash
 python /hdchoi00/SSL/moco/moco-v3/main_moco.py \
   -a vit_base \
