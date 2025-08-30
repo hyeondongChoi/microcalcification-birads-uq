@@ -1,6 +1,6 @@
-## MoCo v3 for Self-Supervised Learning
+# MoCo v3 for Self-Supervised Learning
 
-### Introduction
+## Introduction
 This is a PyTorch implementation of MoCo v3 for self-supervised learning (SSL) with Vision Transformers (ViT) on mammography images.
 
 We follow the official resources:
