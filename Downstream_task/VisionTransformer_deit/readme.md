@@ -20,7 +20,7 @@ According to the MoCo-v3 documentation, it is recommended to use **timm==0.4.9**
 
 Parameter settings for each model can be found in the `config` folder of this repository.
 
-- **ViT-Small**
+- **ViT-Small (ImageNet pre-trained)**
 ```bash
 python main-mammo.py \
   --model deit_small_patch16_224 \
@@ -29,13 +29,22 @@ python main-mammo.py \
   --output_dir /hdchoi00/results/vit_small_imagenet \
   --epoch 100
 ```
-- **ViT-Base**
+- **ViT-Base (ImageNet pre-trained)**
 ```bash
 python main-mammo.py \
   --model deit_base_patch16_224 \
   --data-path /hdchoi00/data/CNUH_data \
   --resume /hdchoi00/weights/imagenet/vit-b-300ep_converted.pth.tar \
   --output_dir /hdchoi00/results/vit_base_imagenet \
+  --epoch 100
+```
+- **ViT-Base (SSL pre-trained)**
+```bash
+python main-mammo.py \
+  --model deit_base_patch16_224 \
+  --data-path /hdchoi00/data/CNUH_data \
+  --resume /hdchoi00/weights/ssl/ssl_checkpoint_599_converted.pth.tar \
+  --output_dir /hdchoi00/results/vit_base_ssl \
   --epoch 100
 ```
 
