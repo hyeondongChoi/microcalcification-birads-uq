@@ -26,3 +26,4 @@ python /hdchoi00/SSL/moco/moco-v3/main_moco.py \
   --multiprocessing-distributed --world-size 1 --rank 0 \
   /hdchoi00/SSL/moco/data
 ```
+
