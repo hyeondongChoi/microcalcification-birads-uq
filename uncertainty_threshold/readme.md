@@ -1,4 +1,4 @@
-## Determining the Uncertainty Threshold
+## Setting the Uncertainty Threshold
 
 This section describes how we set the uncertainty threshold. We propose two validation-driven strategies:
 
